@@ -40,7 +40,7 @@ class  User {
   // Konversi dari JSON ke Object Dart
   factory User.fromJson(Map<String, dynamic> json) => _$UserFromJson(json);
   Map<String, dynamic> toJson() => _$UserToJson(this);
-  
+
   // factory User.fromMap(Map<String, dynamic> json) {
   //   return User(
   //     id: json['id'],
